@@ -26,12 +26,14 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-        {/* ButtonComponent*/}
+        {/* ButtonComponent */}
         <ButtonComponent text="Cliccami!" />
+        <br />
         {/* ImageComponent */}
         <ImageComponent
           src="https://placedog.net/150x150"
-          alt="Immagine di esempio"
+          alt="Immagine di un cane"
+          style={{ marginTop: "20px" }} // Margine superiore di 20px
         />
       </div>
       <p className="read-the-docs">
